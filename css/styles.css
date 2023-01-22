@@ -35,6 +35,8 @@ body{
 /* background E5E5E5 */
 .list{
     list-style: none;
+
+
    /* HEAD */
 }
 .logo-web{
@@ -86,6 +88,8 @@ body{
 .contacts:focus {
     color: var(--iris);
 }
+
+
 /*Hero*/
 
 .hero-title {
