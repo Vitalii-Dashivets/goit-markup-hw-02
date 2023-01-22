@@ -76,7 +76,6 @@ body{
 .contacts{
     color: var(--navy-blue);
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -101,6 +100,7 @@ body{
 .button-hero {
     color: var(--white);
     background-color: var(--iris);
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,7 +130,8 @@ body{
     text-transform: capitalize;
 
 }
-.feature-title>li>h3{
+.feature-title>li>h3,
+.works-title>li>h3{
     color:var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
@@ -154,9 +155,6 @@ body{
 }
 .footer .text{
     color: var(--cornflower);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;         
     letter-spacing: 0.02em;
