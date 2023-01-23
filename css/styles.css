@@ -94,6 +94,7 @@ body{
 
 .hero-title {
     color: var(--white);
+    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -109,6 +110,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
+    font-family: Roboto;
     letter-spacing: 0.04em;
 }
 
@@ -134,18 +136,30 @@ body{
     text-transform: capitalize;
 
 }
-.feature-title>li>h3,
-.works-title>li>h3{
+.feature-title,
+.works-title {
     color:var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    
+}
+.works-text{
+    color: var(--navy-blue);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+}
+.works-link{
+    text-decoration: none;
 }
 .cards{
     background-color: var(--cloud);
 }
-.card-name>li>h3{
+.card-name{
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
@@ -199,6 +213,7 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    border:none;
 }
 
 .button-filter:hover,
