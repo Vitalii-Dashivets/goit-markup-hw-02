@@ -18,11 +18,10 @@
 body{
     background-color:var(--white);
     color: var(--slate);
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
 }
 
 
@@ -35,10 +34,13 @@ body{
 /* background E5E5E5 */
 .list{
     list-style: none;
+  
+}
 
 
    /* HEAD */
-}
+
+
 .logo-web{
     color:var(--iris);
     font-family: 'Raleway';
@@ -71,7 +73,8 @@ body{
      text-decoration: none;
 }
 .site-nav .link:hover, 
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link.current {
 
     color: var(--iris);
 }
@@ -123,8 +126,18 @@ body{
 .section{
     background-color: var(--white);
 }
-.section-title.hidden-title{
-    color: var(--white);
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 }
 .section-title{
     color: var(--navy-blue);
@@ -158,6 +171,7 @@ body{
 }
 .cards{
     background-color: var(--cloud);
+   
 }
 .card-name{
     color: var(--navy-blue);
@@ -214,6 +228,7 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     border:none;
+  
 }
 
 .button-filter:hover,
